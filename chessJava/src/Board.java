@@ -169,9 +169,9 @@ public class Board {
      * sets up the board by adding all the pieces to the array at their respective starting positions
      */
     public void setupBoard(){
-        //setupKing();
-        //setupQueen();
-        //setupBishopKnightRook();
+        setupKing();
+        setupQueen();
+        setupBishopKnightRook();
         setupPawns();
     }
 
