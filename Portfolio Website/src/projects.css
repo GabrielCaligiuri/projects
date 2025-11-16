@@ -1,0 +1,38 @@
+/*src projects.css
+Gabriel Caligiuri */
+
+.project_container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 100px auto 40px auto;
+  max-width: 90%;
+}
+
+.project_card {
+  flex: 1 1 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px 30px;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 1.0s ease-out forwards;
+}
+
+.project_card a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.project_card a:hover {
+  text-decoration: underline;
+}
+
+
+

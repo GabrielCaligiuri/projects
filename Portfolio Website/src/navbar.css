@@ -1,0 +1,90 @@
+/*src navbar.css
+Gabriel Caligiuri */
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  background-color: #cad6ec;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  
+
+  background-color: rgba(255, 255, 255, 0.4); /* translucent white */
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar__container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__links{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  /*Style logic*/
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #111;
+  font-weight: 500;
+  opacity: 1;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+  gap: 2rem;
+}
+
+
+.navbar__projects, 
+.navbar__background{
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.navbar__projects:hover, 
+.navbar__background:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+
+.navbar__home{
+  /*Positional Logic*/
+  justify-content: flex-start;
+  margin: 1rem;
+  /*Style logic*/
+  text-decoration: none;
+  opacity: 1;
+  cursor: pointer;
+  
+  transition: background-color 0.2s ease;
+  position: relative;
+  top: 5%;
+  display: inline-block;
+}
+
+
+.navbar__home:hover {
+  background-color: #ffffff;
+  border-radius: 50%;
+}

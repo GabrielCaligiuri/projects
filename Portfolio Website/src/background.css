@@ -1,0 +1,44 @@
+/*src background.css
+Gabriel Caligiuri */
+
+.section_block {
+  max-width: 85%;
+  margin: 100px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 1.0s ease-out forwards;
+}
+
+
+.cc__subcategory{
+  position: relative;
+}
+
+.palomar__college{
+  margin-left: 0;
+}
+
+.skills{
+  position: relative;
+}
+
+.languages{
+  position: relative;
+}
+
+.web{
+  position: relative;
+}
+
+.core{
+  position: relative;
+}
+
+.jojos{
+  position: relative;
+}
